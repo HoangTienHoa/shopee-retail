@@ -10,6 +10,11 @@
   "engines": {
     "node": ">=22"
   },
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "8.2.12"
+    }
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

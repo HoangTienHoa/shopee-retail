@@ -1,0 +1,21 @@
+{
+  "name": "@shopee/common",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared infrastructure for shopee-retail services: config, logging, Mongo, Kafka, outbox, idempotency, metrics",
+  "main": "src/index.js",
+  "devDependencies": {
+    "express": "^5.2.1",
+    "mongodb-memory-server": "^11.3.0",
+    "supertest": "^7.3.1"
+  },
+  "dependencies": {
+    "@prometheus-io/client": "^0.16.1",
+    "ioredis": "^6.0.0",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^9.10.4",
+    "pino": "^10.4.0",
+    "pino-http": "^11.0.0",
+    "zod": "^4.6.5"
+  }
+}
